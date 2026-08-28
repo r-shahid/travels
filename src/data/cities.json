@@ -1,13 +1,13 @@
 [
   {
-    "city": "tampa",
-    "state": "florida"
-  },
-  {
     "city": "richmond",
     "state": "virginia",
     "caption": "I've been to Richmond before but this was definitely my shortest trip. It was my first time driving there though and it ended up being a pretty nice drive. I really liked passing through Delaware and Maryland. We stopped at an IKEA food court on the way there and Waffle House on the drive back. I documented this trip with a Kodak Charmera 1987. This little keychain camera performed way better than I thought it would, but it definitely struggled in scenes with bright light.",
     "color": "#f25065bc",
+    "trip_start": "08/21/2026",
+    "trip_end": "08/24/2026",
+    "thumbnail": "richmond/PICT0088.jpg",
+    "thumbnail_alt": "James River in Richmond, VA",
     "photos": [
       {
         "caption": "Lotus plants outside of Conservatory at Lewis Ginter Botanical Garden",

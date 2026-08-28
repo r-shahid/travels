@@ -1,16 +1,27 @@
-import { Link } from "react-router-dom";
+import { Link, useParams } from "react-router-dom";
 import "../styles/city.css";
 
-const City = ({ city }) => {
-  //   console.log(city.photos)
+const City = ({ cities }) => {
+  let city;
+  const { currentCity } = useParams();
+//   const other_city = cities.find((trip) => trip.city.toLowerCase() === cityParam.toLowerCase());
+
+  if (window.location.pathname === "/") {
+    city = cities.at(-1);
+  } else {
+    city = cities.find((trip) => trip.city.toLowerCase() === currentCity.toLowerCase());
+  }
+
   return (
     <div className={`City ${city.city}`}>
       {/* <hr /> */}
-      <header >
-        <Link to="https://google.com" 
-        // style={{ backgroundColor: `${city.color}` }}
+      <header>
+        <Link
+          to={"/all"}
+          // style={{ backgroundColor: `${city.color}` }}
         >
-        All Cities</Link>
+          All Cities
+        </Link>
       </header>
       {/* <hr /> */}
       <div className="city-name" style={{ color: `${city.color}` }}>
@@ -19,12 +30,12 @@ const City = ({ city }) => {
       <div className="city-state">{city.state}</div>
       <div className="city-caption">{city.caption} </div>
       <div className="gallery">
-        {Object.entries(city.photos).map((photo) => {
+        {Object.entries(city.photos).map(([key, photo]) => {
           // console.log(photo)
           return (
-            <div className={`img ${photo[1].orientation}`}>
-              <img className="image" src={`/images/${photo[1].src}`} />
-              <div className="caption">{photo[1].caption}</div>
+            <div className={`img ${photo.orientation}`} key={key}>
+              <img className="image" src={`/images/${photo.src}`} />
+              <div className="caption">{photo.caption}</div>
             </div>
           );
         })}

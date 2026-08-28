@@ -2,4 +2,5 @@
   font-family: var(--main-font);
   /* padding-bottom: 200px; */
   width: 100%;
+  /* min-height: 100vh; */
 }
