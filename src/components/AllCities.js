@@ -1,11 +1,7 @@
 import { Link } from "react-router-dom";
 import "../styles/allcities.css";
-import pic from "../thumbnails/richmond.jpg"
 
 const AllCities = ({cities}) => {
-
-    // console.log(cities.toReversed().at(-1))
-    //change top link to go back to home if city.city matches cities.at(-1).city
 
   return (
     <div className="AllCities">
