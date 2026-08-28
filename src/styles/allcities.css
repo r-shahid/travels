@@ -30,3 +30,12 @@
     object-fit: cover;
     object-position: 50% 55%;
 }
+
+.AllCities .coming-soon {
+    font-style: italic;
+    text-align: center;
+    /* background-color: red; */
+    /* height: 400px; */
+    padding-top: 40%;
+    font-size: 2rem;
+}
