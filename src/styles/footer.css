@@ -1,0 +1,15 @@
+.Footer {
+  /* background-color: green; */
+  /* margin-bottom: 0px; */
+  /* padding-bottom: 0px; */
+  text-align: center;
+  margin-top: 200px;
+  padding: 8px;
+}
+
+.Footer a {
+  font-family: var(--label);
+  color: inherit;
+  text-decoration: none;
+  font-size: 1.5rem;
+}

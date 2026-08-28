@@ -1,0 +1,84 @@
+[
+  {
+    "city": "tampa",
+    "state": "florida"
+  },
+  {
+    "city": "richmond",
+    "state": "virginia",
+    "caption": "I've been to Richmond before but this was definitely my shortest trip. It was my first time driving there though and it ended up being a pretty nice drive. I really liked passing through Delaware and Maryland. We stopped at an IKEA food court on the way there and Waffle House on the drive back. I documented this trip with a Kodak Charmera 1987. This little keychain camera performed way better than I thought it would, but it definitely struggled in scenes with bright light.",
+    "color": "#f25065bc",
+    "photos": [
+      {
+        "caption": "Lotus plants outside of Conservatory at Lewis Ginter Botanical Garden",
+        "src": "richmond/PICT0063.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Lewis Ginter Botanical Garden Conservatory",
+        "src": "richmond/PICT0065.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Rose Garden at Lewis Ginter",
+        "src": "richmond/PICT0070.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Butterfly Exhibition at Lewis Ginter Botanical Garden",
+        "src": "richmond/PICT0068.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Lewis Ginter Botanical Garden Conservatory",
+        "src": "richmond/PICT0066.jpg",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "Inside the Butterfly Exhibition at Lewis Ginter Botanical Garden",
+        "src": "richmond/PICT0069.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0089.jpg",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0079.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0084.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0086.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0087.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0092.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Hollywood Cemetery",
+        "src": "richmond/PICT0094.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "View of the James River from Hollywood Cemetery",
+        "src": "richmond/PICT0088.jpg",
+        "orientation": "landscape"
+      }
+    ]
+  }
+]
