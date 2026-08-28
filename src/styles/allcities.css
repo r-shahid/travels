@@ -1,6 +1,10 @@
 .AllCities {
   min-height: 100vh;
-  padding: 0 8px;
+}
+
+.AllCities a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .AllCities header {
@@ -12,15 +16,34 @@
 }
 
 .AllCities header a {
-  font-size: 1.5rem;
-  text-decoration: none;
-  color: inherit;
+  font-size: 1.3rem;
   font-weight: 600;
   background-color: black;
   color: white;
   padding: 4px 8px;
   text-transform: uppercase;
   font-variation-settings: "wdth" 151;
+  margin-right: 0px;
+}
+
+.AllCities h1{
+  white-space: nowrap;
+  font-size: clamp(2rem, 27vw, 24rem);
+  font-weight: 900;
+  letter-spacing: -0.08em;
+  text-transform: lowercase;
+  font-variation-settings: "wdth" 105;
+  color: rgba(43, 55, 226, 0.747);
+  margin-top: -50px;
+  margin-bottom: 0px;
+}
+
+.AllCities .cities_list, .AllCities h1 {
+    padding: 0 8px;
+}
+
+.AllCities .cities_list {
+
 }
 
 .AllCities .trip {
@@ -33,6 +56,24 @@
   align-items: center;
   /* gap: 8px 8px; */
   /* background-color: yellow; */
+}
+
+.AllCities .trip .city-state .city {
+  text-transform: uppercase;
+  font-variation-settings: "wdth" 151;
+}
+
+.AllCities .trip .city-state .state {
+  font-weight: 400;
+  font-variation-settings: "wdth" 151;
+  text-transform: capitalize;
+  font-size: 1rem;
+}
+
+.AllCities .duration{
+  font-variation-settings: "wdth" 110;
+  font-weight: 500;
+  color: rgba(0, 0, 0, 0.57);
 }
 
 .AllCities .thumbnail {

@@ -14,20 +14,21 @@ const AllCities = ({cities}) => {
       </header>
       <h1>All Cities</h1>
       <div className="cities_list">
-        {cities.toReversed().map((city)=>{
+        {cities.toReversed().map((city, key)=>{
             return(
-                // <Link to={`/${city.city}`}>
-                // <div className="trip">
-                //     <h2 className="city-state">{city.city}<span className="state"> {city.state}</span></h2>
-                //     <div className="duration">
-                //         {city.trip_start} to {city.trip_end}
-                //     </div>
-                //     <div className="thumbnail">
-                //         <img src={`/images/${city.thumbnail}`} alt={city.thumbnail_alt}/>
-                //     </div>
-                // </div>
-                // </Link>
-                <div className="coming-soon">More Cities coming soon</div>
+                <Link to={key === 0 ? "/" : `/${city.city}`} key={key}>
+                <div className="trip">
+                    <h2 className="city-state">
+                        <div className="city">{city.city}</div>
+                        <div className="state"> {city.state}</div></h2>
+                    <div className="duration">
+                        {city.trip_start} to {city.trip_end}
+                    </div>
+                    <div className="thumbnail">
+                        <img src={`/images/${city.thumbnail}`} alt={city.thumbnail_alt}/>
+                    </div>
+                </div>
+                </Link>
             )
         })}
       </div>

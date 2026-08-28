@@ -4,12 +4,14 @@ import "../styles/city.css";
 const City = ({ cities }) => {
   let city;
   const { currentCity } = useParams();
-//   const other_city = cities.find((trip) => trip.city.toLowerCase() === cityParam.toLowerCase());
+  //   const other_city = cities.find((trip) => trip.city.toLowerCase() === cityParam.toLowerCase());
 
   if (window.location.pathname === "/") {
     city = cities.at(-1);
   } else {
-    city = cities.find((trip) => trip.city.toLowerCase() === currentCity.toLowerCase());
+    city = cities.find(
+      (trip) => trip.city.toLowerCase() === currentCity.toLowerCase(),
+    );
   }
 
   return (
@@ -31,7 +33,6 @@ const City = ({ cities }) => {
       <div className="city-caption">{city.caption} </div>
       <div className="gallery">
         {Object.entries(city.photos).map(([key, photo]) => {
-          // console.log(photo)
           return (
             <div className={`img ${photo.orientation}`} key={key}>
               <img className="image" src={`/images/${photo.src}`} />
