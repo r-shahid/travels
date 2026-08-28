@@ -35,7 +35,7 @@ const City = ({ cities }) => {
         {Object.entries(city.photos).map(([key, photo]) => {
           return (
             <div className={`img ${photo.orientation}`} key={key}>
-              <img className="image" src={`/images/${photo.src}`} />
+              <img className="image" src={`/images/${photo.src}`} alt={photo.caption} />
               <div className="caption">{photo.caption}</div>
             </div>
           );
