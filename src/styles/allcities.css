@@ -26,7 +26,7 @@
   margin-right: 0px;
 }
 
-.AllCities h1{
+.AllCities h1 {
   white-space: nowrap;
   font-size: clamp(2rem, 27vw, 24rem);
   font-weight: 900;
@@ -38,12 +38,9 @@
   margin-bottom: 0px;
 }
 
-.AllCities .cities_list, .AllCities h1 {
-    padding: 0 8px;
-}
-
-.AllCities .cities_list {
-
+.AllCities .cities_list,
+.AllCities h1 {
+  padding: 0 8px;
 }
 
 .AllCities .trip {
@@ -52,10 +49,21 @@
     align-items: center; */
   margin: 8px 0px;
   display: grid;
-  grid-template-columns: repeat(3, 1fr);
+  grid-template-columns: repeat(2, 1fr);
   align-items: center;
   /* gap: 8px 8px; */
   /* background-color: yellow; */
+}
+
+.AllCities .trip .info {
+  grid-column: span 1;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+}
+
+.AllCities .trip .city-state {
+  grid-column: span 1;
 }
 
 .AllCities .trip .city-state .city {
@@ -70,30 +78,38 @@
   font-size: 1rem;
 }
 
-.AllCities .duration{
+.AllCities .duration {
   font-variation-settings: "wdth" 110;
   font-weight: 500;
   color: rgba(0, 0, 0, 0.57);
+  grid-column: span 1;
 }
 
 .AllCities .thumbnail {
   /* border: 1px solid black; */
   width: fit-content;
+  grid-column: span 1;
 }
 
 .AllCities .thumbnail img {
   display: block;
-  height: 80px;
-  width: 600px;
+  /* max-height: 80px; */
+  /* width: 600px; */
+  width: 100%;
+  aspect-ratio: 15/2;
   object-fit: cover;
   object-position: 50% 55%;
 }
 
-.AllCities .coming-soon {
-  font-style: italic;
-  text-align: center;
-  /* background-color: red; */
-  /* height: 400px; */
-  padding-top: 40%;
-  font-size: 2rem;
+@media (max-width: 950px) {
+  .AllCities .trip {
+    display: flex;
+    flex-direction: column-reverse;
+  }
+  .AllCities .trip .info {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
 }
