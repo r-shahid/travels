@@ -28,14 +28,18 @@
 
 .AllCities h1 {
   white-space: nowrap;
-  font-size: clamp(2rem, 27vw, 24rem);
+  /* font-size: clamp(2rem, 27vw, 24rem); */
+  font-size: 22cqi;
   font-weight: 900;
-  letter-spacing: -0.08em;
+  letter-spacing: -0.1em;
   text-transform: lowercase;
   font-variation-settings: "wdth" 105;
   color: rgba(43, 55, 226, 0.747);
   margin-top: -50px;
   margin-bottom: 0px;
+  /* margin-left: 2px; */
+  /* text-align: right; */
+    /* background-color: red; */
 }
 
 .AllCities .cities_list,
