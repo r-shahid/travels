@@ -46,6 +46,7 @@
   text-transform: lowercase;
   /* font-variation-settings: "wdth" 104; */
   margin-top: -50px;
+  /* color: #c33e0ae0; */
 }
 
 .City .city-state {
@@ -64,20 +65,22 @@
 .City .city-caption {
   width: 60%;
   padding: 24px;
-  /* font-weight: 600; */
 }
 
 .City .gallery {
   display: grid;
   grid-template-columns: repeat(4, minmax(0, 1fr));
-  gap: 32px 20px;
+  /* gap: 32px 8px; */
+  column-gap: 8px;
   padding: 0 8px;
+  align-items: start;
 }
 
 .City .gallery .img {
-  display: block;
   width: 100%;
-  height: 100%;
+  display: grid;
+  grid-row: span 2;
+  grid-template-rows: subgrid;
 }
 .City .gallery .portrait {
   grid-column: span 1;
@@ -87,22 +90,35 @@
   grid-column: span 2;
 }
 
+.City .gallery .wide-portrait {
+  grid-column: span 2;
+}
+
+.City .gallery .full-landscape {
+  grid-column: span 4;
+}
+
 .City .gallery .img .image {
+  grid-row: 1;
   display: block;
   width: 100%;
   height: 100%;
+  object-fit: cover;
 }
 
-.City .gallery .img.portrait .image {
+.City .gallery .img.portrait .image, .City .gallery .img.wide-portrait .image  {
   aspect-ratio: 2/3;
 }
 
-.City .gallery .img.landscape .image {
-  background-color: rgb(243, 136, 154);
+.City .gallery .img.landscape .image, .City .gallery .img.full-landscape .image {
   aspect-ratio: 4/3;
+  object-fit: cover;
 }
 
 .City .gallery .img .caption {
   font-weight: 500;
   padding: 4px 0px;
+  font-size: clamp(0.3rem, 0.4rem + 0.5vw, 0.8rem);
+  display: block;
+  grid-row: 2;
 }

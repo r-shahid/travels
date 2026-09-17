@@ -80,5 +80,102 @@
         "orientation": "landscape"
       }
     ]
+  },
+  {
+    "city": "tampa",
+    "state": "florida",
+    "caption": "This has to have been my craziest trip in terms of the distance-travelled to trip-duration ratio. We spent just over 24 hours in Tampa for the Strokes concert and managed to squeeze in a beach day too.",
+    "color": "#c33e0ae0",
+    "trip_start": "09/12/2026",
+    "trip_end": "09/13/2026",
+    "thumbnail": "tampa/shells_beach.png",
+    "thumbnail_alt": "shells on the beach in Tampa, FL",
+    "photos": [
+      {
+        "caption": "Street view ft. some of the many palm trees we saw on this trip",
+        "src": "tampa/street_wide.jpg",
+        "orientation": "full-landscape"
+      },
+      {
+        "caption": "Pass-a-Grille beach",
+        "src": "tampa/beach.jpg",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "Pass-a-Grille beach",
+        "src": "tampa/ocean_wide.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "in the ocean @ Pass-a-Grille beach",
+        "src": "tampa/in_water.jpg",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "I've never seen so many shells in the sand!",
+        "src": "tampa/shells_beach.png",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Lookin for shells",
+        "src": "tampa/swimming.gif",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "Shell haul",
+        "src": "tampa/shells.png",
+        "orientation": "portrait"
+      },
+      {
+        "caption": "Grand Budapest Hotel vibes from the Don CeSar hotel",
+        "src": "tampa/street.jpg",
+        "orientation": "wide-portrait"
+      },
+      {
+        "caption": "Another palm tree",
+        "src": "tampa/flora.png",
+        "orientation": "wide-portrait"
+      },
+      {
+        "caption": "Strokes concert - the main event of this trip",
+        "src": "tampa/concert.jpg",
+        "orientation": "full-landscape"
+      },
+      {
+        "caption": "Driving home from the concert, I suddenly noticed that most of the highway didn't have the harsh white LED streetlights I've grown used to seeing. The warm orange lights reminded me of what it was like going outside in the summer as a kid.",
+        "src": "tampa/highway.jpg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Even more palm trees",
+        "src": "tampa/trees.png",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Spotted the Orion constellation around 6AM. I'm used to seeing this in the evenings during the fall/winter back home.",
+        "src": "tampa/stars.jpeg",
+        "orientation": "landscape"
+      },
+      {
+        "caption": "Look for three stars in a row (Orion's Belt) with two brighter stars on each side, almost in a bowtie shape. The bright star below the belt is the Orion Nebula.",
+        "src": "tampa/stars-outlined.jpeg",
+        "orientation": "landscape"
+      },
+      {
+        "caption":"Thanks to some super friendly pilots, I got to experience what it's like in the cockpit",
+        "src":"tampa/cockpit.jpeg",
+        "orientation": "portrait"
+      },
+      {
+        "caption":"Trading card haul for this weekend",
+        "src":"tampa/cards.png",
+        "orientation": "landscape"
+      },
+      {
+        "caption":"Until next time!",
+        "src":"tampa/plane_shadow.jpg",
+        "orientation": "portrait"
+      }
+    ]
   }
 ]
