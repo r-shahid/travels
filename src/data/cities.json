@@ -77,14 +77,14 @@
       {
         "caption": "View of the James River from Hollywood Cemetery",
         "src": "richmond/PICT0088.jpg",
-        "orientation": "landscape"
+        "orientation": "full-landscape"
       }
     ]
   },
   {
     "city": "tampa",
     "state": "florida",
-    "caption": "This has to have been my craziest trip in terms of the distance-travelled to trip-duration ratio. We spent just over 24 hours in Tampa for the Strokes concert and managed to squeeze in a beach day too.",
+    "caption": "This has to have been my craziest trip in terms of the distance-travelled to trip-duration ratio! We spent just over 24 hours in Tampa for the Strokes concert and managed to squeeze in a beach day too.",
     "color": "#c33e0ae0",
     "trip_start": "09/12/2026",
     "trip_end": "09/13/2026",
@@ -117,7 +117,7 @@
         "orientation": "landscape"
       },
       {
-        "caption": "Lookin for shells",
+        "caption": "Lookin for shells in the water",
         "src": "tampa/swimming.gif",
         "orientation": "portrait"
       },
@@ -142,7 +142,7 @@
         "orientation": "full-landscape"
       },
       {
-        "caption": "Driving back to the hotel after the concert, I suddenly noticed that most of the highway didn't have the harsh white LED streetlights I've grown used to seeing. The warm orange lights reminded me of what it was like going outside in the summer as a kid.",
+        "caption": "Driving back to the hotel after the concert, I suddenly noticed that most of the highway didn't have the harsh white LED streetlights I've grown used to seeing. The warm orange lights reminded me of what it was like going out at night in the summer as a kid.",
         "src": "tampa/highway.jpg",
         "orientation": "landscape"
       },
